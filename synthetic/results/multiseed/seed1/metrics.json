@@ -1,0 +1,376 @@
+{
+  "seed": 1,
+  "iters": 2500,
+  "init_points": 5000,
+  "configs": {
+    "naive": {
+      "agg": {
+        "psnr_all_mean": 22.377,
+        "psnr_static_mean": 30.562,
+        "psnr_dyn_mean": 10.086,
+        "ssim_mean": 0.907,
+        "ghost_residual_mean": 0.0764,
+        "train_time_s": 441.75,
+        "n_gauss": 5000,
+        "mode": "naive",
+        "seed": 1
+      },
+      "per_frame": [
+        {
+          "frame": 0,
+          "psnr_all": 23.554,
+          "psnr_static": 30.62,
+          "psnr_dyn": 8.893,
+          "ssim": 0.9174,
+          "ghost_residual": 0.0414,
+          "dyn_ratio": 0.0277
+        },
+        {
+          "frame": 1,
+          "psnr_all": 22.697,
+          "psnr_static": 31.225,
+          "psnr_dyn": 8.505,
+          "ssim": 0.917,
+          "ghost_residual": 0.0315,
+          "dyn_ratio": 0.0329
+        },
+        {
+          "frame": 2,
+          "psnr_all": 21.942,
+          "psnr_static": 29.27,
+          "psnr_dyn": 8.406,
+          "ssim": 0.9119,
+          "ghost_residual": 0.0217,
+          "dyn_ratio": 0.0364
+        },
+        {
+          "frame": 3,
+          "psnr_all": 21.757,
+          "psnr_static": 29.852,
+          "psnr_dyn": 8.317,
+          "ssim": 0.9021,
+          "ghost_residual": 0.0067,
+          "dyn_ratio": 0.0385
+        },
+        {
+          "frame": 4,
+          "psnr_all": 22.239,
+          "psnr_static": 29.15,
+          "psnr_dyn": 9.227,
+          "ssim": 0.9079,
+          "ghost_residual": 0.0322,
+          "dyn_ratio": 0.0402
+        },
+        {
+          "frame": 5,
+          "psnr_all": 22.689,
+          "psnr_static": 28.999,
+          "psnr_dyn": 10.121,
+          "ssim": 0.9108,
+          "ghost_residual": 0.0629,
+          "dyn_ratio": 0.043
+        },
+        {
+          "frame": 6,
+          "psnr_all": 22.745,
+          "psnr_static": 28.692,
+          "psnr_dyn": 10.693,
+          "ssim": 0.9065,
+          "ghost_residual": 0.0843,
+          "dyn_ratio": 0.0472
+        },
+        {
+          "frame": 7,
+          "psnr_all": 22.489,
+          "psnr_static": 28.766,
+          "psnr_dyn": 10.53,
+          "ssim": 0.9011,
+          "ghost_residual": 0.0808,
+          "dyn_ratio": 0.0494
+        },
+        {
+          "frame": 8,
+          "psnr_all": 21.421,
+          "psnr_static": 30.306,
+          "psnr_dyn": 9.795,
+          "ssim": 0.8943,
+          "ghost_residual": 0.0766,
+          "dyn_ratio": 0.0604
+        },
+        {
+          "frame": 9,
+          "psnr_all": 22.186,
+          "psnr_static": 34.791,
+          "psnr_dyn": 11.255,
+          "ssim": 0.9043,
+          "ghost_residual": 0.1335,
+          "dyn_ratio": 0.0766
+        },
+        {
+          "frame": 10,
+          "psnr_all": 22.188,
+          "psnr_static": 36.957,
+          "psnr_dyn": 12.117,
+          "ssim": 0.9,
+          "ghost_residual": 0.1577,
+          "dyn_ratio": 0.0954
+        },
+        {
+          "frame": 11,
+          "psnr_all": 22.616,
+          "psnr_static": 28.112,
+          "psnr_dyn": 13.173,
+          "ssim": 0.9103,
+          "ghost_residual": 0.1876,
+          "dyn_ratio": 0.0843
+        }
+      ]
+    },
+    "dyn-mask": {
+      "agg": {
+        "psnr_all_mean": 21.125,
+        "psnr_static_mean": 34.518,
+        "psnr_dyn_mean": 8.301,
+        "ssim_mean": 0.9187,
+        "ghost_residual_mean": 0.005,
+        "train_time_s": 441.33,
+        "n_gauss": 5000,
+        "mode": "dyn-mask",
+        "seed": 1
+      },
+      "per_frame": [
+        {
+          "frame": 0,
+          "psnr_all": 23.269,
+          "psnr_static": 32.981,
+          "psnr_dyn": 8.164,
+          "ssim": 0.9323,
+          "ghost_residual": 0.0042,
+          "dyn_ratio": 0.0277
+        },
+        {
+          "frame": 1,
+          "psnr_all": 22.53,
+          "psnr_static": 34.811,
+          "psnr_dyn": 7.96,
+          "ssim": 0.933,
+          "ghost_residual": 0.0047,
+          "dyn_ratio": 0.0329
+        },
+        {
+          "frame": 2,
+          "psnr_all": 21.876,
+          "psnr_static": 31.405,
+          "psnr_dyn": 7.981,
+          "ssim": 0.9278,
+          "ghost_residual": 0.0027,
+          "dyn_ratio": 0.0364
+        },
+        {
+          "frame": 3,
+          "psnr_all": 22.107,
+          "psnr_static": 33.962,
+          "psnr_dyn": 8.248,
+          "ssim": 0.9266,
+          "ghost_residual": 0.0032,
+          "dyn_ratio": 0.0385
+        },
+        {
+          "frame": 4,
+          "psnr_all": 22.287,
+          "psnr_static": 34.262,
+          "psnr_dyn": 8.603,
+          "ssim": 0.9271,
+          "ghost_residual": 0.0041,
+          "dyn_ratio": 0.0402
+        },
+        {
+          "frame": 5,
+          "psnr_all": 22.038,
+          "psnr_static": 31.989,
+          "psnr_dyn": 8.811,
+          "ssim": 0.9266,
+          "ghost_residual": 0.0051,
+          "dyn_ratio": 0.043
+        },
+        {
+          "frame": 6,
+          "psnr_all": 21.504,
+          "psnr_static": 30.478,
+          "psnr_dyn": 8.805,
+          "ssim": 0.9213,
+          "ghost_residual": 0.0069,
+          "dyn_ratio": 0.0472
+        },
+        {
+          "frame": 7,
+          "psnr_all": 21.274,
+          "psnr_static": 33.304,
+          "psnr_dyn": 8.481,
+          "ssim": 0.9188,
+          "ghost_residual": 0.0077,
+          "dyn_ratio": 0.0494
+        },
+        {
+          "frame": 8,
+          "psnr_all": 20.18,
+          "psnr_static": 36.533,
+          "psnr_dyn": 8.087,
+          "ssim": 0.908,
+          "ghost_residual": 0.0068,
+          "dyn_ratio": 0.0604
+        },
+        {
+          "frame": 9,
+          "psnr_all": 19.127,
+          "psnr_static": 37.681,
+          "psnr_dyn": 8.026,
+          "ssim": 0.8961,
+          "ghost_residual": 0.0058,
+          "dyn_ratio": 0.0766
+        },
+        {
+          "frame": 10,
+          "psnr_all": 18.338,
+          "psnr_static": 38.975,
+          "psnr_dyn": 8.168,
+          "ssim": 0.8926,
+          "ghost_residual": 0.0038,
+          "dyn_ratio": 0.0954
+        },
+        {
+          "frame": 11,
+          "psnr_all": 18.964,
+          "psnr_static": 37.831,
+          "psnr_dyn": 8.275,
+          "ssim": 0.9136,
+          "ghost_residual": 0.0055,
+          "dyn_ratio": 0.0843
+        }
+      ]
+    },
+    "no-dyn-data": {
+      "agg": {
+        "psnr_all_mean": 22.537,
+        "psnr_static_mean": 30.897,
+        "psnr_dyn_mean": 10.326,
+        "ssim_mean": 0.9087,
+        "ghost_residual_mean": 0.0805,
+        "train_time_s": 440.99,
+        "n_gauss": 5000,
+        "mode": "no-dyn-data",
+        "seed": 1
+      },
+      "per_frame": [
+        {
+          "frame": 0,
+          "psnr_all": 22.953,
+          "psnr_static": 29.993,
+          "psnr_dyn": 8.298,
+          "ssim": 0.9123,
+          "ghost_residual": 0.0074,
+          "dyn_ratio": 0.0277
+        },
+        {
+          "frame": 1,
+          "psnr_all": 22.283,
+          "psnr_static": 30.966,
+          "psnr_dyn": 8.067,
+          "ssim": 0.9128,
+          "ghost_residual": 0.0087,
+          "dyn_ratio": 0.0329
+        },
+        {
+          "frame": 2,
+          "psnr_all": 21.711,
+          "psnr_static": 29.605,
+          "psnr_dyn": 8.061,
+          "ssim": 0.9064,
+          "ghost_residual": 0.0056,
+          "dyn_ratio": 0.0364
+        },
+        {
+          "frame": 3,
+          "psnr_all": 21.528,
+          "psnr_static": 26.816,
+          "psnr_dyn": 8.841,
+          "ssim": 0.9038,
+          "ghost_residual": 0.031,
+          "dyn_ratio": 0.0385
+        },
+        {
+          "frame": 4,
+          "psnr_all": 22.538,
+          "psnr_static": 27.808,
+          "psnr_dyn": 10.039,
+          "ssim": 0.9092,
+          "ghost_residual": 0.0685,
+          "dyn_ratio": 0.0402
+        },
+        {
+          "frame": 5,
+          "psnr_all": 23.97,
+          "psnr_static": 29.351,
+          "psnr_dyn": 11.712,
+          "ssim": 0.9177,
+          "ghost_residual": 0.1192,
+          "dyn_ratio": 0.043
+        },
+        {
+          "frame": 6,
+          "psnr_all": 24.873,
+          "psnr_static": 29.859,
+          "psnr_dyn": 13.179,
+          "ssim": 0.92,
+          "ghost_residual": 0.1495,
+          "dyn_ratio": 0.0472
+        },
+        {
+          "frame": 7,
+          "psnr_all": 24.042,
+          "psnr_static": 30.305,
+          "psnr_dyn": 12.087,
+          "ssim": 0.9095,
+          "ghost_residual": 0.1327,
+          "dyn_ratio": 0.0494
+        },
+        {
+          "frame": 8,
+          "psnr_all": 21.813,
+          "psnr_static": 29.146,
+          "psnr_dyn": 10.453,
+          "ssim": 0.8963,
+          "ghost_residual": 0.0962,
+          "dyn_ratio": 0.0604
+        },
+        {
+          "frame": 9,
+          "psnr_all": 21.004,
+          "psnr_static": 35.499,
+          "psnr_dyn": 9.992,
+          "ssim": 0.9009,
+          "ghost_residual": 0.0814,
+          "dyn_ratio": 0.0766
+        },
+        {
+          "frame": 10,
+          "psnr_all": 20.951,
+          "psnr_static": 37.434,
+          "psnr_dyn": 10.836,
+          "ssim": 0.8973,
+          "ghost_residual": 0.112,
+          "dyn_ratio": 0.0954
+        },
+        {
+          "frame": 11,
+          "psnr_all": 22.775,
+          "psnr_static": 33.977,
+          "psnr_dyn": 12.347,
+          "ssim": 0.9188,
+          "ghost_residual": 0.1544,
+          "dyn_ratio": 0.0843
+        }
+      ]
+    }
+  }
+}
