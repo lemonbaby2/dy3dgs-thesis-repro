@@ -1,0 +1,217 @@
+﻿{
+    "verified_at":  "2026-07-30T05:54:52.6603220+08:00",
+    "status":  "PASS",
+    "checks_total":  41,
+    "checks_passed":  41,
+    "checks_failed":  0,
+    "issues":  [
+
+               ],
+    "checks":  [
+                   {
+                       "name":  "root_documents",
+                       "passed":  true,
+                       "detail":  "README, report, and thesis workbook are present."
+                   },
+                   {
+                       "name":  "slam_tools_readme",
+                       "passed":  true,
+                       "detail":  "D:\\GS_Repro\\tools\\README_SLAM可视化工具.md"
+                   },
+                   {
+                       "name":  "required_file:packages\\3DGS_4DGS_ROS2_code_and_configs.zip",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:checksums.sha256",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:delivery_manifest.csv",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:delivery_manifest.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:metrics\\experiment_summary.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:metrics\\telemetry_summary.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:metrics\\preprocessing_ablation.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:metrics\\video_probe.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:metrics\\3dgs_official_truck_7000_evaluation.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:environment\\vm_slam_tools_verification.txt",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:environment\\windows_slam_python_tools.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:tools\\sources\\source_versions.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:datasets\\official_3dgs_paper\\tandt_db.zip",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:tools\\windows\\official_3dgs_SIBR_viewers.zip",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:videos\\3DGS_Lego_30k_official_120s_long_trajectory.mp4",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:videos\\3DGS_Lego_30k_official_120s_long_trajectory.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:outputs\\3dgs\\lego_white_rgb_white_30000\\chkpnt30000.pth",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:outputs\\3dgs\\lego_white_rgb_white_30000\\point_cloud\\iteration_30000\\point_cloud.ply",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:outputs\\3dgs\\official_validation\\truck_7000\\point_cloud\\iteration_7000\\point_cloud.ply",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:outputs\\3dgs\\official_validation\\truck_7000\\results.json",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:outputs\\4dgs\\bouncingballs_20000\\chkpnt_fine_20000.pth",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "required_file:ros2_ws\\src\\gaussian_ros_viz\\package.xml",
+                       "passed":  true,
+                       "detail":  "present"
+                   },
+                   {
+                       "name":  "main_metrics",
+                       "passed":  true,
+                       "detail":  "Two main results plus one explicitly supplementary official Truck 7k result have expected PSNR values."
+                   },
+                   {
+                       "name":  "4dgs_time_ply_count",
+                       "passed":  true,
+                       "detail":  "20 timestamp PLY files."
+                   },
+                   {
+                       "name":  "video_count",
+                       "passed":  true,
+                       "detail":  "9 MP4 files and 9 probe records."
+                   },
+                   {
+                       "name":  "3dgs_120s_video",
+                       "passed":  true,
+                       "detail":  "Expected 800x800 H.264/yuv420p, 30 FPS, 3600 frames, exactly 120.000 seconds."
+                   },
+                   {
+                       "name":  "ffprobe_available",
+                       "passed":  true,
+                       "detail":  "D:\\Anaconda\\Library\\bin\\ffprobe.exe"
+                   },
+                   {
+                       "name":  "video:3DGS_Lego_30k_GT_left_Render_right.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 1600x800, 100 frames"
+                   },
+                   {
+                       "name":  "video:3DGS_Lego_30k_official_120s_long_trajectory.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 800x800, 3600 frames"
+                   },
+                   {
+                       "name":  "video:3DGS_Lego_30k_render.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 800x800, 100 frames"
+                   },
+                   {
+                       "name":  "video:4DGS_BouncingBalls_20k_dynamic_160frames.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 800x800, 160 frames"
+                   },
+                   {
+                       "name":  "video:4DGS_BouncingBalls_20k_GT_left_Render_right.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 1600x800, 20 frames"
+                   },
+                   {
+                       "name":  "video:4DGS_BouncingBalls_20k_test_20frames.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 800x800, 20 frames"
+                   },
+                   {
+                       "name":  "video:Gazebo11_Gaussian_Robot_demo.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 1718x926, 240 frames"
+                   },
+                   {
+                       "name":  "video:RViz2_3DGS_Lego_static.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 1718x926, 240 frames"
+                   },
+                   {
+                       "name":  "video:RViz2_4DGS_BouncingBalls_dynamic.mp4",
+                       "passed":  true,
+                       "detail":  "h264/yuv420p, 1718x926, 300 frames"
+                   },
+                   {
+                       "name":  "sha256_manifest",
+                       "passed":  true,
+                       "detail":  "58 critical files verified."
+                   },
+                   {
+                       "name":  "code_archive",
+                       "passed":  true,
+                       "detail":  "3885 entries; integrity=OK."
+                   },
+                   {
+                       "name":  "thesis_workbook",
+                       "passed":  true,
+                       "detail":  "9 worksheets; ZIP/XML structure valid."
+                   }
+               ]
+}

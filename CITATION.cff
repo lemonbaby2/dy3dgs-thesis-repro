@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite as below."
+type: software
+title: "Dy3DGS Thesis Repro: Controlled Comparison of Dynamic-Aware 3D Gaussian Splatting"
+abstract: "A self-contained, dependency-light reproduction harness that isolates the effect of dynamic-mask-weighted loss versus dynamic-point initialization filtering in 3D Gaussian Splatting under a synthesized dynamic scene with exact ground truth."
+authors:
+  - family-names: "Li"
+    given-names: "Zipeng"
+    affiliation: "Guangdong University of Technology"
+version: "0.1.0"
+date-released: "2026-11-11"
+license: MIT
+repository-code: "https://github.com/lemonbaby2/dy3dgs-thesis-repro"
+keywords:
+  - 3D Gaussian Splatting
+  - dynamic SLAM
+  - novel view synthesis
+  - reproducibility

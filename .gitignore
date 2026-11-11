@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
+*.ply
+out/
+out_seeds_run.log
+.DS_Store

@@ -1,0 +1,35 @@
+[
+  {
+    "variant": "Raw RGBA hidden RGB + white renderer background",
+    "purpose": "diagnostic preprocessing mismatch",
+    "psnr_db": 2.379143238067627,
+    "ssim": 0.2713177502155304,
+    "lpips_vgg": 0.5162396430969238,
+    "training_seconds": 1357.33,
+    "peak_vram_mib": 7152,
+    "model_size_bytes": 470406727,
+    "valid_main_result": false
+  },
+  {
+    "variant": "Raw RGBA hidden RGB + black renderer background",
+    "purpose": "diagnostic preprocessing mismatch",
+    "psnr_db": 2.8247745037078857,
+    "ssim": 0.27643442153930664,
+    "lpips_vgg": 0.4992588758468628,
+    "training_seconds": 1278.286,
+    "peak_vram_mib": 6739,
+    "model_size_bytes": 454484042,
+    "valid_main_result": false
+  },
+  {
+    "variant": "Deterministic alpha composite to white RGB",
+    "purpose": "correct final preprocessing",
+    "psnr_db": 37.41181182861328,
+    "ssim": 0.9860994219779968,
+    "lpips_vgg": 0.012993067502975464,
+    "training_seconds": 1094.08,
+    "peak_vram_mib": 6955,
+    "model_size_bytes": 551804131,
+    "valid_main_result": true
+  }
+]
